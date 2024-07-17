@@ -14,28 +14,30 @@ import LoadingScreen from "./components/LoadingScreen"; // Import the loading sc
 import bgImage from './assets/images/main.png';
 import rdImage from './assets/images/roadmap2.png';
 import main2 from './assets/images/main2.png';
+import main3 from './assets/images/main3.png';
+
 
 // import { bg3 } from "./assets/images";
 
 
 
 const App = () => {
-  const [isLoading, setIsLoading] = useState(true);
+  // const [isLoading, setIsLoading] = useState(true);
 
-  useEffect(() => {
-    const timer = setTimeout(() => {
-      setIsLoading(false);
-    }, 1000); // Set the loading time to 3 seconds
+  // useEffect(() => {
+  //   const timer = setTimeout(() => {
+  //     setIsLoading(false);
+  //   }, 1000); // Set the loading time to 3 seconds
 
-    return () => clearTimeout(timer);
-  }, []);
+  //   return () => clearTimeout(timer);
+  // }, []);
 
-  if (isLoading) {
-    return <LoadingScreen />;
-  }
+  // if (isLoading) {
+  //   return <LoadingScreen />;
+  // }
 return(
   <main className="relative bg-[#a7a7c5]">
-    <Nav />
+    {/* <Nav /> */}
    
 
     {/* <section className="xl:padding-l wide:padding-r padding-b bg-cover bg-center" style={{ backgroundImage: `url(${bgImage})` }}>
@@ -52,7 +54,7 @@ return(
 
     <section className="w-full h-screen bg-cover bg-center " style={{ backgroundImage: `url(${main2})` }}><NewSection /></section>
     <SeparatorReverse />
-    <section className="padding " ><About2 /></section>
+    <section className="w-full h-screen bg-cover bg-center " style={{ backgroundImage: `url(${main3})` }}><About2 /></section>
     
  
    
