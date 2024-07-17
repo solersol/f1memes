@@ -37,7 +37,7 @@ const App = () => {
   // }
 return(
   <main className="relative bg-[#a7a7c5]">
-    {/* <Nav /> */}
+    <Nav />
    
 
     {/* <section className="xl:padding-l wide:padding-r padding-b bg-cover bg-center" style={{ backgroundImage: `url(${bgImage})` }}>
