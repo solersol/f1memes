@@ -4,6 +4,8 @@ import VideoBackground from "./components/VideoBackground";
 import React, { useState, useEffect } from 'react';
 import Nav from "./components/Nav";
 import Separator from "./components/Separator";
+import SeparatorReverse from "./components/SeparatorReverse";
+
 import StickyFooter from "./sections/StickyFooter";
 import Chart from "./sections/Chart";
 import LoadingScreen from "./components/LoadingScreen"; // Import the loading screen
@@ -49,7 +51,7 @@ return(
     <Separator />
 
     <section className="w-full h-screen bg-cover bg-center " style={{ backgroundImage: `url(${main2})` }}><NewSection /></section>
-    <Separator />
+    <SeparatorReverse />
     <section className="padding " ><About2 /></section>
     
  
