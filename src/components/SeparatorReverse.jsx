@@ -23,7 +23,7 @@ const SeparatorReverse = () => {
   return (
     <div
       ref={separatorRef}
-      className="w-full h-[100px] bg-repeat-x"
+      className="w-full h-full bg-repeat-x"
       style={{
         backgroundImage: `url(${separatorReverse})`,
         backgroundSize: 'contain',
