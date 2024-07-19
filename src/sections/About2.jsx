@@ -59,7 +59,7 @@ const About2 = () => {
         </h2>
         <a href="https://t.me/f1memessol">
           <button className="bg-[#0a2d6b] text-white px-6 py-3 rounded-full text-xl font-anton hover:bg-[#ff0000]">
-            JOIN $DRIFT
+            JOIN $F1
           </button>
         </a>
       </div>
